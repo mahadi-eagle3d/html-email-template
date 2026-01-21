@@ -1,0 +1,467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eagle 3D Streaming</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #264f73;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      p {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        padding-bottom: 40px;
+      }
+      .main-table {
+        background-color: #d9d2e9;
+        margin: 0 auto;
+        width: 600px;
+        max-width: 600px;
+      }
+      .footer-table {
+        background-color: #efeeec;
+        margin: 0 auto;
+        width: 600px;
+        max-width: 600px;
+      }
+      .inner-padding {
+        padding: 40px 40px;
+      }
+      .button-black {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 14px;
+      }
+      .pill-white {
+        background-color: #ffffff;
+        color: black;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: inline-block;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+      }
+      .list-item {
+        margin-bottom: 8px;
+        line-height: 1.7;
+        color: #264f73;
+        font-size: 14px;
+      }
+      .text-regular {
+        color: #264f73;
+        font-size: 14px;
+        line-height: 1.8;
+      }
+      .footer-text {
+        color: #264f73;
+        font-size: 12px;
+        line-height: 1.6;
+      }
+      .social-icon {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+        background-color: #cccccc;
+        border-radius: 50%;
+      }
+
+      /* Responsive */
+      @media screen and (max-width: 600px) {
+        .main-table,
+        .footer-table {
+          width: 100% !important;
+        }
+        .inner-padding {
+          padding: 20px !important;
+        }
+        .mobile-block {
+          display: block !important;
+          width: 100% !important;
+          text-align: center !important;
+        }
+        .mobile-padding-top {
+          padding-top: 20px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Main Content Section -->
+      <table
+        class="main-table"
+        align="center"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+      >
+        <!-- Header -->
+        <tr>
+          <td class="inner-padding" style="padding-bottom: 20px">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="left" valign="middle">
+                  <!-- Logo Placeholder -->
+                  <!-- 
+                    TODO: Replace the src below with your hosted image URL (e.g., https://yourwebsite.com/logo.png).
+                    Local paths (like ./image.png) do not work in emails.
+                    The image 'image.png' is 261KB, which is too large to embed directly as Base64.
+                  -->
+                  <img
+                    src="https://via.placeholder.com/100x40/E6E0EE/000000?text=LOGO"
+                    alt="Eagle Logo"
+                    width="100"
+                    style="display: block; font-weight: bold; color: black"
+                  />
+                </td>
+                <td align="right" valign="middle">
+                  <a href="#" class="button-black" style="color: #ffffff"
+                    >Log in</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Greeting -->
+        <tr>
+          <td
+            class="inner-padding"
+            style="padding-top: 0; padding-bottom: 20px"
+          >
+            <p class="text-regular">
+              Dear
+              <span style="color: #264f73; font-weight: bold"
+                >Valued Customer</span
+              >,
+            </p>
+            <p class="text-regular" style="font-weight: bold; color: #264f73">
+              Greetings from Eagle!
+            </p>
+          </td>
+        </tr>
+
+        <!-- Intro Text -->
+        <tr>
+          <td class="inner-padding" style="padding-top: 0">
+            <p class="text-regular">
+              I'm Sufian Shihab, platform specialist at Eagle 3D Streaming,
+              again. We have noted that your project, <strong>app</strong>, is
+              now live on our platform. This is a significant accomplishment.
+            </p>
+            <p class="text-regular">
+              With your interactive 3D application streaming, we want to ensure
+              its performance meets your expectations. Your feedback on
+              <strong>app's</strong> current performance is highly valuable as
+              we continually refine our services.
+            </p>
+          </td>
+        </tr>
+
+        <!-- Section 1: Discuss Your Experience -->
+        <tr>
+          <td class="inner-padding" style="padding-top: 0">
+            <div class="pill-white">Discuss Your Experience</div>
+            <p class="text-regular">
+              We invite you to share your observations.
+            </p>
+            <ul
+              style="
+                padding-left: 20px;
+                margin-top: 0;
+                color: #264f73;
+                font-size: 14px;
+              "
+            >
+              <li class="list-item">
+                Reply to this email to provide your insights regarding
+                <strong>app's</strong> performance and your overall experience.
+              </li>
+              <li class="list-item">
+                We can also discuss how a paid plan might offer enhanced
+                performance or dedicated resources specifically for
+                <strong>app</strong>.
+              </li>
+            </ul>
+          </td>
+        </tr>
+
+        <!-- Section 2: Planning for Growth -->
+        <tr>
+          <td class="inner-padding" style="padding-top: 0">
+            <div class="pill-white">Planning for Growth</div>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td
+                  valign="middle"
+                  width="70%"
+                  class="text-regular"
+                  style="padding-right: 15px"
+                >
+                  We are available to discuss your project's performance and
+                  options for its continued growth. Please indicate a suitable
+                  time for a brief discussion in your reply.
+                </td>
+                <td valign="middle" align="right">
+                  <a href="#" class="button-black" style="white-space: nowrap"
+                    >Book a Time</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Section 3: Connect With Us -->
+        <tr>
+          <td class="inner-padding" style="padding-top: 20px">
+            <div class="pill-white">Connect With Us</div>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td
+                  valign="middle"
+                  width="70%"
+                  class="text-regular"
+                  style="padding-right: 15px"
+                >
+                  If you need any guidance, please reply directly to this email.
+                  For technical assistance, our support team is available via
+                  our portal &rarr;
+                </td>
+                <td valign="middle" align="right">
+                  <a href="#" class="button-black" style="white-space: nowrap"
+                    >Support Portal</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Big CTA -->
+        <tr>
+          <td align="center" style="padding: 40px 40px">
+            <a
+              href="#"
+              class="button-black"
+              style="
+                padding: 16px 32px;
+                font-size: 18px;
+                border-radius: 12px;
+                border: 2px solid white;
+              "
+              >Start Streaming</a
+            >
+          </td>
+        </tr>
+      </table>
+
+      <!-- Footer Section -->
+      <table
+        class="footer-table"
+        align="center"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+      >
+        <tr>
+          <td class="inner-padding">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td valign="top">
+                  <p
+                    style="
+                      font-weight: bold;
+                      font-size: 16px;
+                      margin-bottom: 5px;
+                      color: black;
+                    "
+                  >
+                    Sufian Shihab | Platform Specialist
+                  </p>
+                  <!-- Blue Button Small -->
+                  <table
+                    border="0"
+                    cellspacing="0"
+                    cellpadding="0"
+                    style="margin-bottom: 15px"
+                  >
+                    <tr>
+                      <td
+                        align="center"
+                        style="background-color: #4b83f2; border-radius: 15px"
+                      >
+                        <a
+                          href="#"
+                          style="
+                            font-size: 11px;
+                            font-weight: bold;
+                            color: #ffffff;
+                            text-decoration: none;
+                            padding: 4px 12px;
+                            display: inline-block;
+                          "
+                          >Book a meeting</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+
+                  <p
+                    style="
+                      font-weight: bold;
+                      font-size: 16px;
+                      margin-bottom: 2px;
+                      color: black;
+                    "
+                  >
+                    Eagle 3D Streaming LLC | USA Office
+                  </p>
+                  <p style="font-size: 12px; color: gray; margin-bottom: 15px">
+                    2521 Humble, Midland, TX, 79705, United States
+                  </p>
+
+                  <!-- Social Icons Placeholder -->
+                  <div style="margin-bottom: 15px">
+                    <img
+                      src="https://via.placeholder.com/20/FF0000/FFFFFF?text=Y"
+                      alt="YT"
+                      width="20"
+                      height="20"
+                      style="vertical-align: middle; border-radius: 50%"
+                    />
+                    <img
+                      src="https://via.placeholder.com/20/3b5998/FFFFFF?text=F"
+                      alt="FB"
+                      width="20"
+                      height="20"
+                      style="vertical-align: middle; border-radius: 50%"
+                    />
+                    <img
+                      src="https://via.placeholder.com/20/0077b5/FFFFFF?text=L"
+                      alt="LI"
+                      width="20"
+                      height="20"
+                      style="vertical-align: middle; border-radius: 50%"
+                    />
+                    <img
+                      src="https://via.placeholder.com/20/000000/FFFFFF?text=X"
+                      alt="X"
+                      width="20"
+                      height="20"
+                      style="vertical-align: middle; border-radius: 50%"
+                    />
+                    <img
+                      src="https://via.placeholder.com/20/7289da/FFFFFF?text=D"
+                      alt="Dc"
+                      width="20"
+                      height="20"
+                      style="vertical-align: middle; border-radius: 50%"
+                    />
+                    <img
+                      src="https://via.placeholder.com/20/888888/FFFFFF?text=M"
+                      alt="M"
+                      width="20"
+                      height="20"
+                      style="vertical-align: middle; border-radius: 50%"
+                    />
+                  </div>
+
+                  <!-- Second Blue Button -->
+                  <table
+                    border="0"
+                    cellspacing="0"
+                    cellpadding="0"
+                    style="margin-bottom: 10px"
+                  >
+                    <tr>
+                      <td
+                        align="center"
+                        style="background-color: #4b83f2; border-radius: 15px"
+                      >
+                        <a
+                          href="#"
+                          style="
+                            font-size: 11px;
+                            font-weight: bold;
+                            color: #ffffff;
+                            text-decoration: none;
+                            padding: 4px 12px;
+                            display: inline-block;
+                          "
+                          >Start Pixel Streaming</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td valign="top" align="right" width="120">
+                  <!-- Eagle Logo Large Placeholder -->
+                  <img
+                    src="https://via.placeholder.com/100x50/EFEEEC/000000?text=EAGLE"
+                    alt="Eagle Logo"
+                    width="100"
+                    style="display: block"
+                  />
+                </td>
+              </tr>
+            </table>
+
+            <div
+              style="
+                border-top: 1px solid #dcdcdc;
+                margin-top: 20px;
+                padding-top: 20px;
+                text-align: center;
+              "
+            >
+              <p class="footer-text">
+                Copyright © 2025, Eagle 3D Streaming, LLC., All Rights Reserved,
+                Privacy Policy
+              </p>
+              <p class="footer-text">
+                <a href="#" style="color: #4fabc1; text-decoration: underline"
+                  >Unsubscribe</a
+                >
+                <a
+                  href="#"
+                  style="
+                    color: #4fabc1;
+                    text-decoration: underline;
+                    margin-left: 5px;
+                  "
+                  >Manage preferences</a
+                >
+              </p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
